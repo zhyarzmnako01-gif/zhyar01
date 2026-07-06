@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Love ❤️</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f48fb1;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+    background:#ffdce6;
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:60px;
+}
+
+.left{
+    width:50%;
+}
+
+.left h1{
+    font-size:70px;
+}
+
+.left span{
+    color:#ff2d6f;
+}
+
+.left p{
+    margin-top:20px;
+    line-height:30px;
+    font-size:18px;
+}
+
+button{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#ff4f81;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff2d6f;
+}
+
+.right{
+    width:40%;
+    position:relative;
+    height:350px;
+}
+
+.heart{
+    position:absolute;
+    font-size:120px;
+    animation:float 3s infinite;
+}
+
+.h1{
+    top:20px;
+    left:120px;
+}
+
+.h2{
+    top:150px;
+    left:20px;
+}
+
+.h3{
+    top:180px;
+    right:20px;
+}
+
+@keyframes float{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0);}
+
+}
+
+section{
+    margin-top:80px;
+}
+
+section h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+section p{
+    font-size:18px;
+    line-height:30px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    margin-top:60px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+
+<div class="logo">❤️ Zhyar & Honya ❤️</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#story">Story</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#letter">Letter</a></li>
+</ul>
+
+</nav>
+
+<div class="hero" id="home">
+
+<div class="left">
+
+<h1>Our <span>Love Story</span></h1>
+
+<p>
+
+❤️چیرۆکەکەمان لە کۆتاییەکانی 2025 دەستی پێکرد لە زانکۆی سلێمانی،بە گفتوگۆیەکی سادە دەستی پێکرد بەڵام بە خێرای بوو بە شتێکی تایبەت،هەر ڕۆژێک کە بەیەکەوە بەسەرمان بردوە  زەردەخەنەو  پێکەنین و قسە یادەوەری لە بیرنەکراوی یاوە بە من.سپاس بۆ تۆ کە باشترین بەش بوویت لە ژیانم ژیانم جوانتر کردوە ،هیوادارم بەیەکەوە بەردەوامبین لە نوسینی چیرۆکەکەمان جوانتریشی بکەین بۆ مناڵەکانمان.❤️زۆرم خۆشەوێی
+</p>
+
+<button onclick="loveMessage()">
+Click Me ❤️
+</button>
+
+</div>
+
+<div class="right">
+
+<div class="heart h1">❤️</div>
+<div class="heart h2">❤️</div>
+<div class="heart h3">❤️</div>
+
+</div>
+
+</div>
+
+<section id="story">
+
+<h2>❤️ My Favorite Person</h2>
+
+<p>
+
+تۆ هۆکاری ئەوەی کە ڕۆژانە زیاتر دڵخۆشبم بونی تۆ ژیانی جوانتر کردوە بۆم.
+سوپاس بۆ تۆ کە ژیانم پڕ کرد لە خۆشی و خۆشەویستی و ساتەوەختی جوان.
+هەمیشە جێگایەکی تایبەتت دەبێت لە دڵمدا.
+❤️🫶
+
+</p>
+
+</section>
+
+<section id="gallery">
+
+<h2>📷 Our Memories</h2>
+
+<div class="gallery">
+
+<img src="oo.jpeg" width="20" height="20">
+<img src="aa.jpeg">
+<img src="ss.jpeg">
+<img src="ww.jpeg">
+
+</div>
+
+</section>
+
+<section id="letter">
+
+<h2>💌 Love Letter</h2>
+
+<p>
+
+My Love,
+
+<br><br>
+❤️سوپاس بۆ تۆ کە هەمیشە لەگەڵم بوون. تۆ هەموو ڕۆژێک جیهانم گەشاوەتر دەکەیت. ژیان بە هەر کوێیەک دەمانبات بەڵێن دەدەم خۆشم بوێیت و ڕێزت بگرم و بۆ هەمیشە یادگاری جوانت لەگەڵ دروست بکەم. ❤️ بۆ هەمیشە هی تۆم
+</p>
+
+</section>
+
+<footer>
+
+Made by Zhyar
+
+</footer>
+
+</div>
+
+<script>
+
+function loveMessage(){
+
+alert("❤️ I Love You Forever ❤️");
+
+}
+
+</script>
+
+</body>
+</html>
